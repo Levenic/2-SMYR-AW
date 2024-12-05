@@ -1,0 +1,63 @@
+/*
+    Juan Pedro García
+    Septiembre 2024
+*/
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}
+*{ 
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+div > a{
+
+    padding: 2.5rem;
+    display: block;
+    font-size: 2.2rem;
+    border-radius: 2.5rem;
+    background-color: aqua ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin: 0.5rem;
+    width: 17rem;
+    text-align: center;
+    border: 0.5rem solid black;
+    
+}
+
+.cajaRoja{
+    background-color: red;
+    float: left;
+}
+.cajaAzul{
+    background-color: blue;
+    float: right;
+}
+.cajaVerde{
+    background-color: green;
+    float: left;
+}
+.cajaAmarilla{
+    background-color: yellow;
+    float: right;
+}
+.cajaRosa{
+    background-color: pink;
+    float: left;
+}
+.cajaGris{
+    background-color: gray;
+    float: right;
+}
+.cajaNaranja{
+    background-color:orange;
+    float: left;
+}
+.cajaBlanca{
+    background-color: white;
+    float: right;
+}

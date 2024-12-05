@@ -1,0 +1,43 @@
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+section{
+    margin-top: 3rem;
+}
+li{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 2rem;
+    flex: 1;
+}
+.f1{
+    font-family: "Nunito", sans-serif;
+}
+
+.f2{
+    font-family: "Bokor", system-ui;
+    border: 0.5rem;
+}
+
+.f2 a{
+    width: 25%;
+    text-align: center;
+    float: left;
+    font-size: 2rem;
+}
+
+.f3{
+    font-family: "Knewave", system-ui;
+}
+
+.f4{
+    font-family: "Dokdo", system-ui;
+    position: absolute;
+    right: 0;
+    font-size: large;
+}

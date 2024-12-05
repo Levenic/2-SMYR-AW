@@ -1,0 +1,68 @@
+html{font-size: 62.5%;}
+/*1er gradiente radial*/
+body{
+    font-size: 1.6rem;
+    background-image: radial-gradient(yellow,rgb(23, 97, 0)); 
+}
+/*2do gradiente radial*/
+h1{
+    border: solid black 0.3rem;
+    border-radius: 2rem;
+    padding: 3rem;
+    text-align: center;
+    background-image: radial-gradient(white,green);
+}
+/*1er gradiente lineal*/
+nav a{
+    border: solid black 0.2rem;
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    flex: auto;
+    flex-direction: column;
+    float: left;
+    width: 33%;
+    background-image: linear-gradient(to bottom,blue,white);
+}
+
+p{
+    font-size: 3rem;
+    margin-top: 5rem;
+    border: solid black 0.2rem;
+    border-radius: 5rem;
+    text-align: center;
+    padding: 3rem;
+}
+/*2do gradiente lineal y 1ra sombra caja y texto*/
+.linear_sombra1{
+    box-shadow: 0.5rem 0.5rem 1rem;
+    background-image: linear-gradient(to left,green,orange,purple);
+    text-shadow: -0.5rem 2rem 0.2rem;
+}
+/*3er gradiente lineal y 2da sombra de caja y texto*/
+.linear_sombra2{
+    box-shadow: -0.5rem -0.5rem 1rem;
+    background-image: linear-gradient(to right,yellow,rgb(0, 255, 229));
+    text-shadow: -0.5rem 2rem 0.2rem;
+}
+/*Imagen con gradiente*/
+.container{
+    width: 80%;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin:0 auto;
+    margin-top: 5rem;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), brown 66%),url(./Imagenes_Tarea8/dogs-9172481_1280.jpg) center/cover no-repeat;
+    height: 70rem;
+    align-items: center;
+}
+
+.texto_imagen{
+    grid-column: 3;
+    justify-self: center;
+    font-size: 4rem;
+    color: white;
+    margin: 0 auto;
+}

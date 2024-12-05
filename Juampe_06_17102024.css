@@ -1,0 +1,43 @@
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}
+*{
+    box-sizing: border-box;
+    margin: 0rem;
+}
+.MenuH{
+    overflow: hidden;
+    border: 0.5rem double;
+}
+.MenuH a{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+}
+.MenuH a:hover{
+    background-color: white;
+    color: black;
+}
+
+.MenuV{
+    float: left;
+    overflow: hidden;
+    border: 0.5rem double;
+}
+.MenuV a{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.MenuV a:hover{
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    display: block;
+}

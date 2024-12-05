@@ -1,0 +1,40 @@
+/* 
+    Juan Pedro García Pérez
+    Septiembre 2024
+*/
+*{
+    margin: 0rem;
+    box-sizing: border-box ;
+}
+
+html{font-size: 62.5%;}
+
+body{
+    background-color: bisque;
+    border: solid 0.5rem rgb(0, 123, 255);
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 3rem;
+    width: 90%;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+h1,h2{
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    padding: 1rem ;
+    margin: 1rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 0.5rem black;
+    font-style: italic;
+
+}
+
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

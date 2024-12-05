@@ -1,0 +1,17 @@
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}
+li{
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+}
+.placa{background-image: url(./Imagenes_Tarea7/Motherboard-PNG-Clipart.png);}
+.CPU{background-image: url(./Imagenes_Tarea7/Imagen\ procesador.jpg);;}
+.RAM{background-image: url(./Imagenes_Tarea7/Imagen\ RAM.jpg);}
+.SSD{background-image: url(./Imagenes_Tarea7/Imagen\ SSD.jpg);}
+.torre{background-image: url(./Imagenes_Tarea7/Imagen\ gabinete.jpg);}
+.disipador{background-image: url(./Imagenes_Tarea7/Imagen\ disipador.png);}
+.pantalla{background-image: url(./Imagenes_Tarea7/Imagen\ pantalla.png);}
+.fuente{background-image: url(./Imagenes_Tarea7/Imagen\ fuente\ de\ alimentacion.jpg);}
+.teclado{background-image: url(./Imagenes_Tarea7/Imagen\ teclado.png);}
+.raton{background-image: url(./Imagenes_Tarea7/Imagen\ raton.png);}

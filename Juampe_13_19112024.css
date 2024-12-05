@@ -1,0 +1,56 @@
+html{font-size: 62.5%;}
+body{
+    font-size: 1.6rem;
+    background-image: linear-gradient(to bottom,green,rgb(0, 255, 242));
+    background-repeat: no-repeat;
+    height: 70rem;
+    font-family: "Parkinsans",serif;
+}
+
+header{
+    width: 99.37%;
+    position: absolute;
+    background-color: brown;
+    border: solid black 0.5rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+table{
+    margin-top: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+img{
+    width: 9rem;
+}
+
+th{
+    background-color: black;
+}
+
+th,td{
+    color: white;
+    border: 0.3rem solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+caption{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-shadow: black 0.3rem;
+    border-bottom: solid black 0.2rem;
+}

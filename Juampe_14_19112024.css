@@ -1,0 +1,70 @@
+html{
+    font-size: 62.5%;
+    font-family: "Nunito", sans-serif;
+}
+body{
+    font-size: 1.6rem;
+    background-image: linear-gradient(to bottom, blue, purple);
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+}
+
+header{
+    background-image: linear-gradient(to bottom,gold,rgb(255, 14, 118));
+    border: solid black 0.4rem;
+    border-radius: 3rem;
+}
+
+
+.formulario{
+    width: 90%;
+    background-color: rgb(32, 234, 76);
+    margin:0 auto;
+}
+
+legend{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.input{
+    display: block;
+    font-size: 2rem;
+    width: 97%;
+    padding: 1rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+
+#cuadro{
+    border-radius: 1rem;
+
+}
+
+.componentes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    column-gap: 1rem;
+    font-size: large;
+}
+
+#enviar{
+    align-items: center;
+    height: 5rem;
+}

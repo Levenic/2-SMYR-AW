@@ -1,0 +1,36 @@
+html{font-size: 62.5%;}
+body{font-size: 1.6rem;}
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    background-color: brown;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0rem 0.5rem 0.5rem black;
+    text-shadow: 0.1rem -0.1rem 0.2rem black;
+    color:white
+}
+nav{font-size: 3rem;}
+section{
+    width: 31%;
+    float: left;
+    border: solid black 0.5rem;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+article{
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    position:absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+img{width: 10rem;}
